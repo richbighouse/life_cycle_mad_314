@@ -25,6 +25,7 @@ public class OtherActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.i(TAG, "Going to the Main Activity!");
                 startActivity(new Intent(OtherActivity.this, MainActivity.class));
             }
         });
